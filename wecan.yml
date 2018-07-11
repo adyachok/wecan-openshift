@@ -18,7 +18,7 @@ metadata:
       database name, username, and password are chosen via parameters when provisioning
       this service.
     tags: wecan,kanban,mongodb
-  name: mongodb-persistent
+  name: wecan-mongodb-persistent
 objects:
 - apiVersion: v1
   kind: ServiceAccount
