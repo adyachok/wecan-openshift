@@ -123,6 +123,8 @@ objects:
           env:
           - name: MONGO_URL
             value: mongodb://${MONGODB_USER}:${MONGODB_PASSWORD}@${DATABASE_SERVICE_NAME}:27017/${MONGODB_DATABASE}
+          - name: ROOT_URL
+            value: http://localhost
           ports:
           - containerPort: 80
             name: ${WECAN_SERVICE_NAME}
